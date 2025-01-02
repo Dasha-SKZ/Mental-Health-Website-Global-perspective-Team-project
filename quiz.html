@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <header>
+        <h1>Mental Health Quiz</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Mental Health</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="team.html">Research Team</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="self-care.html">Self-Care</a></li>
+            </ul>
+        </nav>
+    </header>
+        <form id="quizForm">
+            <div class="question">
+                <p>1. How often do you feel overwhelmed by stress?</p>
+                <input type="radio" name="q1" value="Rarely"> Rarely<br>
+                <input type="radio" name="q1" value="Sometimes"> Sometimes<br>
+                <input type="radio" name="q1" value="Often"> Often<br>
+                <input type="radio" name="q1" value="Always"> Always
+            </div>
+            <div class="question">
+                <p>2. Do you have trouble falling or staying asleep?</p>
+                <input type="radio" name="q2" value="No"> No<br>
+                <input type="radio" name="q2" value="Occasionally"> Occasionally<br>
+                <input type="radio" name="q2" value="Frequently"> Frequently<br>
+                <input type="radio" name="q2" value="Always"> Always
+            </div>
+            <div class="question">
+                <p>3. How often do you feel low energy or fatigued?</p>
+                <input type="radio" name="q3" value="Rarely"> Rarely<br>
+                <input type="radio" name="q3" value="Sometimes"> Sometimes<br>
+                <input type="radio" name="q3" value="Often"> Often<br>
+                <input type="radio" name="q3" value="Always"> Always
+            </div>
+            <div class="question">
+                <p>4. Do you experience sudden mood changes?</p>
+                <input type="radio" name="q4" value="No"> No<br>
+                <input type="radio" name="q4" value="Occasionally"> Occasionally<br>
+                <input type="radio" name="q4" value="Frequently"> Frequently<br>
+                <input type="radio" name="q4" value="Always"> Always
+            </div>
+            <div class="question">
+                <p>5. Do you often find it hard to focus on tasks?</p>
+                <input type="radio" name="q5" value="No"> No<br>
+                <input type="radio" name="q5" value="Occasionally"> Occasionally<br>
+                <input type="radio" name="q5" value="Frequently"> Frequently<br>
+                <input type="radio" name="q5" value="Always"> Always
+            </div>
+            <div class="question">
+                <p>6. How often do you feel socially withdrawn or isolated?</p>
+                <input type="radio" name="q6" value="Rarely"> Rarely<br>
+                <input type="radio" name="q6" value="Sometimes"> Sometimes<br>
+                <input type="radio" name="q6" value="Often"> Often<br>
+                <input type="radio" name="q6" value="Always"> Always
+            </div>
+            <div class="question">
+                <p>7. Do you feel nervous or anxious frequently?</p>
+                <input type="radio" name="q7" value="No"> No<br>
+                <input type="radio" name="q7" value="Occasionally"> Occasionally<br>
+                <input type="radio" name="q7" value="Frequently"> Frequently<br>
+                <input type="radio" name="q7" value="Always"> Always
+            </div>
+            <div class="question">
+                <p>8. How often do you overthink past events?</p>
+                <input type="radio" name="q8" value="Rarely"> Rarely<br>
+                <input type="radio" name="q8" value="Sometimes"> Sometimes<br>
+                <input type="radio" name="q8" value="Often"> Often<br>
+                <input type="radio" name="q8" value="Always"> Always
+            </div>
+            <div class="question">
+                <p>9. Do you feel hopeless or down frequently?</p>
+                <input type="radio" name="q9" value="No"> No<br>
+                <input type="radio" name="q9" value="Occasionally"> Occasionally<br>
+                <input type="radio" name="q9" value="Frequently"> Frequently<br>
+                <input type="radio" name="q9" value="Always"> Always
+            </div>
+            <div class="question">
+                <p>10. Do you often doubt your self-worth?</p>
+                <input type="radio" name="q10" value="No"> No<br>
+                <input type="radio" name="q10" value="Occasionally"> Occasionally<br>
+                <input type="radio" name="q10" value="Frequently"> Frequently<br>
+                <input type="radio" name="q10" value="Always"> Always
+            </div>
+            <button type="button" onclick="submitQuiz()">Submit Quiz</button>
+        </form>
+        <p id="quizResult"></p>
+        <footer>
+            <p>&copy; 2025 Mental Health Awareness. All Rights Reserved.</p>
+        </footer>
+        <script src="scripts.js"></script>
+    </main>
+</body>
+<script src="quiz.js"></script>
+</html>
+
